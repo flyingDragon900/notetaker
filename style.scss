@@ -18,11 +18,12 @@ body {
   padding: 2rem;
   color: $dark;
 }
-.modal-container{
+.modal-container {
   position: fixed;
   top: 0;
   right: 0;
-  left: 0;bottom: 0;
+  left: 0;
+  bottom: 0;
   background-color: rgba($dark, 0.2);
   display: grid;
   place-items: center;
@@ -30,12 +31,12 @@ body {
   pointer-events: none;
   transition: $transition;
 
-  &.active{
+  &.active {
     opacity: 1;
     pointer-events: all;
   }
 
-  .modal{
+  .modal {
     max-width: 700px;
     max-height: 80vh;
     overflow: auto;
@@ -44,30 +45,31 @@ body {
     padding: 2rem;
     position: relative;
 
-    &.title{
+    &.title {
       font-size: 2rem;
       line-height: 1.2rem;
       margin-bottom: 1rem;
       min-width: 85%;
     }
 
-    .modal__btn{
+    .modal__btn {
       position: absolute;
-      top: .5rem;
-      right: .5rem;
-      bottom: .5rem;
+      top: 0.5rem;
+      right: 0.5rem;
+      bottom: 0.5rem;
       color: $dark;
       font-size: 2rem;
       height: 40px;
       width: 40px;
-      cursor:pointer;
+      cursor: pointer;
       border: 3px solid $dark;
       border-radius: 5px;
       background-color: white;
-      box-shadow: $boxs rgba($dark,.2);
+      box-shadow: $boxs rgba($dark, 0.2);
       transition: $transition;
 
-      &:hover,&:focus{
+      &:hover,
+      &:focus {
         outline: none;
         border: 3px solid $light;
         color: $light;
@@ -197,7 +199,7 @@ form {
       font-family: inherit;
       font-size: inherit;
       padding: 0.7rem 1rem;
-      margin: .5rem 0;
+      margin: 0.5rem 0;
       color: white;
       cursor: pointer;
       outline: none;
@@ -211,11 +213,11 @@ form {
     }
     .note__view {
       background-color: $primary;
-      box-shadow: $boxs rgba($primary,.2);
+      box-shadow: $boxs rgba($primary, 0.2);
     }
     .note__delete {
       background-color: $danger;
-      box-shadow: $boxs rgba($danger,.2);
+      box-shadow: $boxs rgba($danger, 0.2);
     }
   }
 }

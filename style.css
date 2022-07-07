@@ -55,9 +55,9 @@ body {
 
 .modal-container .modal .modal__btn {
   position: absolute;
-  top: .5rem;
-  right: .5rem;
-  bottom: .5rem;
+  top: 0.5rem;
+  right: 0.5rem;
+  bottom: 0.5rem;
   color: #121641;
   font-size: 2rem;
   height: 40px;
@@ -231,7 +231,7 @@ form [type="submit"]:hover {
   font-family: inherit;
   font-size: inherit;
   padding: 0.7rem 1rem;
-  margin: .5rem 0;
+  margin: 0.5rem 0;
   color: white;
   cursor: pointer;
   outline: none;
